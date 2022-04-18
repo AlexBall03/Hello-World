@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello World");
+    char helloWorld[] = "Hello World!";
+    
+    printf("%s", helloWorld);
 
     return 0;
 }
