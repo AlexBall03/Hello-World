@@ -3,7 +3,9 @@
 int main() {
     char helloWorld[] = "Hello World!";
     
-    printf("%s", helloWorld);
+    if (helloWorld[0] == 'H' && helloWorld[1] == 'e') {
+        printf("%s", helloWorld);
+    }
 
     return 0;
 }
